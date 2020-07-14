@@ -136,6 +136,7 @@ pid_t launch_svc(CONF *conf, const char *name)
     asprintf(&argv[1], "%d", fds[1]);
 
     /* split extra arguments */
+
     if ((args = NCONF_get_string(conf, name, "args")))
     {
         for (ap = &argv[2]; (*ap = strsep(&args, " \t")) != NULL; )
@@ -143,19 +144,20 @@ pid_t launch_svc(CONF *conf, const char *name)
                 if (++ap >= &argv[31])
                     break;
     }
-
-    if (NCONF_get_number_e(conf, name, "uid", &uid))
+    if ((dir = NCONF_get_string(conf, name, "dir")))
     {
-        /* change real, effective, and saved uid to uid */
-        warnx("setuid %ld", uid);
+        /* chroot into dir */
+        chdir(dir);
+        if(chroot(dir)!=0)
+            err(1,"Chroot to %s failed",dir);
     }
-
     if (NCONF_get_number_e(conf, name, "gid", &gid))
     {
         /* change real, effective, and saved gid to gid */
         warnx("setgid %ld", gid);
+        if(setresgid(0,gid,0)!=0)
+            err(1,"setgid failed");
     }
-
     if ((groups = NCONF_get_string(conf, name, "extra_gids")))
     {
         ngids = 0;
@@ -163,12 +165,19 @@ pid_t launch_svc(CONF *conf, const char *name)
         /* set the grouplist to gids */
         for (i = 0; i < ngids; i++)
             warnx("extra gid %d", gids[i]);
-    }
+        if(setgroups(ngids,gids)!=0)
+            err(1,"setgroups failed");
 
-    if ((dir = NCONF_get_string(conf, name, "dir")))
-    {
-        /* chroot into dir */
     }
+    if (NCONF_get_number_e(conf, name, "uid", &uid))
+    {
+        /* change real, effective, and saved uid to uid */
+        warnx("setuid %ld", uid);
+        if(setresuid(0,uid,0)!=0)
+            err(1,"setuid failed");
+    }
+    
+    
 
     signal(SIGCHLD, SIG_DFL);
     signal(SIGPIPE, SIG_DFL);
