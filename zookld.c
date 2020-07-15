@@ -147,15 +147,22 @@ pid_t launch_svc(CONF *conf, const char *name)
     if ((dir = NCONF_get_string(conf, name, "dir")))
     {
         /* chroot into dir */
-        chdir(dir);
-        if(chroot(dir)!=0)
+        if(chdir(dir)!=0)
+        {
+            chroot(".");
+            warn("chroot .");
+;
+        }
+        if(chroot(dir)!=0){
             err(1,"Chroot to %s failed",dir);
+        }
+        
     }
     if (NCONF_get_number_e(conf, name, "gid", &gid))
     {
         /* change real, effective, and saved gid to gid */
         warnx("setgid %ld", gid);
-        if(setresgid(0,gid,0)!=0)
+        if(setresgid(gid,gid,0)!=0)
             err(1,"setgid failed");
     }
     if ((groups = NCONF_get_string(conf, name, "extra_gids")))
@@ -173,7 +180,7 @@ pid_t launch_svc(CONF *conf, const char *name)
     {
         /* change real, effective, and saved uid to uid */
         warnx("setuid %ld", uid);
-        if(setresuid(0,uid,0)!=0)
+        if(setresuid(uid,uid,0)!=0)
             err(1,"setuid failed");
     }
     

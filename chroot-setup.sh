@@ -69,6 +69,11 @@ rm -rf /jail/zoobar/db
 
 python /jail/zoobar/zoodb.py init-person
 python /jail/zoobar/zoodb.py init-transfer
-chown -R 61012:61012 /jail/zoobar/db 
+chown -R 61015:61015 /jail/zoobar/db/*
+# chown -R 61012:61012 /jail/zoobar/media
+# chown 0:0 /jail/zoobar/media
+set_perms 61013:61013 755 /jail/zoobar/index.cgi
+set_perms 61015:61015 770 /jail/zoobar/db/person/person.db
+set_perms 61015:61015 770 /jail/zoobar/db/transfer/transfer.db
 # set_perms 123:456 777 /jail/zoobar/db/person/person.db
 # set_perms 123:456 777 /jail/zoobar/db/transfer/transfer.db
