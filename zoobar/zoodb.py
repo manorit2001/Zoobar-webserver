@@ -5,15 +5,20 @@ import os
 from debug import *
 
 PersonBase = declarative_base()
+CredBase = declarative_base()
 TransferBase = declarative_base()
 
 class Person(PersonBase):
     __tablename__ = "person"
     username = Column(String(128), primary_key=True)
-    password = Column(String(128))
-    token = Column(String(128))
     zoobars = Column(Integer, nullable=False, default=10)
     profile = Column(String(5000), nullable=False, default="")
+
+class Cred(CredBase):
+    __tablename__ = "cred"
+    username = Column(String(128), primary_key=True)
+    password = Column(String(128))
+    token = Column(String(128))
 
 class Transfer(TransferBase):
     __tablename__ = "transfer"
@@ -42,10 +47,13 @@ def person_setup():
 def transfer_setup():
     return dbsetup("transfer", TransferBase)
 
+def cred_setup():
+    return dbsetup("cred", CredBase)
+
 import sys
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print "Usage: %s [init-person|init-transfer]" % sys.argv[0]
+        print "Usage: %s [init-person|init-transfer|init-cred]" % sys.argv[0]
         exit(1)
 
     cmd = sys.argv[1]
@@ -53,5 +61,7 @@ if __name__ == "__main__":
         person_setup()
     elif cmd == 'init-transfer':
         transfer_setup()
+    elif cmd == 'init-cred':
+        cred_setup()
     else:
         raise Exception("unknown command %s" % cmd)
