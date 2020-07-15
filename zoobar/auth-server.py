@@ -6,6 +6,8 @@ import sys
 from debug import *
 from zoodb import *
 import random,hashlib
+import pbkdf2
+from base64 import b64encode
 
 def newtoken(db, cred):
     hashinput = "%s%.10f" % (cred.password, random.random())
@@ -21,7 +23,7 @@ class AuthRpcServer(rpclib.RpcServer):
         cred = db.query(Cred).get(username)
         if not cred:
             return None
-        if cred.password == password:
+        if cred.password == pbkdf2.PBKDF2(password,cred.salt).hexread(32):
             return newtoken(db, cred)
         else:
             return None
@@ -33,7 +35,8 @@ class AuthRpcServer(rpclib.RpcServer):
             return None
         newcred = Cred()
         newcred.username = username
-        newcred.password = password
+        newcred.salt = b64encode(os.urandom(64).strip()).decode("UTF-8")
+        newcred.password = pbkdf2.PBKDF2(password,newcred.salt).hexread(32)
         db.add(newcred)
         db.commit()
         return newtoken(db, newcred)
