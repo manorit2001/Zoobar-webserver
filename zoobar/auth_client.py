@@ -17,6 +17,8 @@ def register(username, password):
             newperson.username=username
             db.add(newperson)
             db.commit()
+            with rpclib.client_connect('/banksvc/sock') as s:
+                s.call('createacc',username=username)
         return ret
     ## Fill in code here.
 

@@ -1,40 +1,24 @@
 from zoodb import *
 from debug import *
+import rpclib
 
 import time
 
+sock="/banksvc/sock"
 def transfer(sender, recipient, zoobars):
-    persondb = person_setup()
-    senderp = persondb.query(Person).get(sender)
-    recipientp = persondb.query(Person).get(recipient)
-
-    sender_balance = senderp.zoobars - zoobars
-    recipient_balance = recipientp.zoobars + zoobars
-
-    if sender_balance < 0 or recipient_balance < 0:
-        raise ValueError()
-
-    senderp.zoobars = sender_balance
-    recipientp.zoobars = recipient_balance
-    persondb.commit()
-
-    transfer = Transfer()
-    transfer.sender = sender
-    transfer.recipient = recipient
-    transfer.amount = zoobars
-    transfer.time = time.asctime()
-
-    transferdb = transfer_setup()
-    transferdb.add(transfer)
-    transferdb.commit()
+    with rpclib.client_connect(sock) as c:
+        ret=c.call("transfer",sender=sender,recipient=recipient,zoobars=zoobars)
+        return ret
 
 def balance(username):
-    db = person_setup()
-    person = db.query(Person).get(username)
-    return person.zoobars
+    with rpclib.client_connect(sock) as c:
+        ret=c.call("balance",username=username)
+        return ret
 
 def get_log(username):
-    db = transfer_setup()
-    return db.query(Transfer).filter(or_(Transfer.sender==username,
-                                         Transfer.recipient==username))
+    # db=transfer_setup()
+    # return db.query(Transfer).filter(or_(Transfer.sender==username,Transfer.recipient==username))
+    with rpclib.client_connect(sock) as c:
+        ret=c.call("get_log",username=username)
+        return ret
 
