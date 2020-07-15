@@ -16,7 +16,11 @@ class BankRpcServer(rpclib.RpcServer):
         bank.zoobars=10
         bankdb.add(bank)
         bankdb.commit()
-    def rpc_transfer(self,sender, recipient, zoobars):
+    def rpc_transfer(self,sender, recipient, zoobars,token):
+        with rpclib.client_connect('/authsvc/sock') as c:
+            ret = c.call('check_token',username=sender,token=token)
+            if(ret==False):
+                raise Exception("Token error")
         bankdb = bank_setup()
         senderp = bankdb.query(Bank).get(sender)
         recipientp = bankdb.query(Bank).get(recipient)

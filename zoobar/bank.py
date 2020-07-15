@@ -5,9 +5,9 @@ import rpclib
 import time
 
 sock="/banksvc/sock"
-def transfer(sender, recipient, zoobars):
+def transfer(sender, recipient, zoobars,token):
     with rpclib.client_connect(sock) as c:
-        ret=c.call("transfer",sender=sender,recipient=recipient,zoobars=zoobars)
+        ret=c.call("transfer",sender=sender,recipient=recipient,zoobars=zoobars,token=token)
         return ret
 
 def balance(username):
