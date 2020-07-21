@@ -24,6 +24,11 @@ class ProfileAPIServer(rpclib.RpcServer):
         db=zoodb.cred_setup()
         cred = db.query(zoodb.Cred).get(user)
         self.token=cred.token
+        # db=zoodb.uid_setup()
+        # uid = db.query(zoodb.UID).filter_by(username=user).first().id
+        uid=61015
+        os.setresgid(uid,uid,uid)
+        os.setresuid(uid,uid,uid)
 
     def rpc_get_self(self):
         return self.user
