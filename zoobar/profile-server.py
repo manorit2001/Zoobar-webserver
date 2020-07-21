@@ -15,14 +15,14 @@ from debug import *
 ## Cache packages that the sandboxed code might want to import
 import time
 import errno
-from zoodb import *
+#from zoodb import *
 
 class ProfileAPIServer(rpclib.RpcServer):
     def __init__(self, user, visitor):
         self.user = user
         self.visitor = visitor
-        db=cred_setup()
-        cred = db.query(Cred).get(user)
+        db=zoodb.cred_setup()
+        cred = db.query(zoodb.Cred).get(user)
         self.token=cred.token
 
     def rpc_get_self(self):
@@ -63,8 +63,13 @@ def run_profile(pcode, profile_api_client):
 class ProfileServer(rpclib.RpcServer):
     def rpc_run(self, pcode, user, visitor):
         uid = 61020
+        db=zoodb.uid_setup()
+        uid += db.query(zoodb.UID).filter_by(username=user).first().id
 
-        userdir = '/tmp'
+        userdir = '/tmp/'+hashlib.sha256(user.encode()).hexdigest()
+        if(not os.path.isdir(userdir)):
+            os.makedirs(userdir)
+            os.chown(userdir,uid,uid)
 
         (sa, sb) = socket.socketpair(socket.AF_UNIX, socket.SOCK_STREAM, 0)
         pid = os.fork()

@@ -74,6 +74,7 @@ python /jail/zoobar/zoodb.py init-person
 python /jail/zoobar/zoodb.py init-transfer
 python /jail/zoobar/zoodb.py init-cred
 python /jail/zoobar/zoodb.py init-bank
+python /jail/zoobar/zoodb.py init-uid
 chown -R 61015:61015 /jail/zoobar/db/person
 chown -R 61015:61015 /jail/zoobar/db/transfer
 # chown -R 61016:61016 /jail/zoobar/db/cred
@@ -85,6 +86,8 @@ set_perms 61017:61017 700 /jail/zoobar/db/transfer/transfer.db
 set_perms 61017:61017 700 /jail/zoobar/db/bank/bank.db
 set_perms 61016:61016 700 /jail/zoobar/db/cred/cred.db
 set_perms 61016:61016 700 /jail/zoobar/db/cred
+set_perms 61016:61016 700 /jail/zoobar/db/uid/uid.db
+set_perms 61016:61016 700 /jail/zoobar/db/uid
 set_perms 61017:61017 700 /jail/zoobar/db/bank
 set_perms 61017:61017 700 /jail/zoobar/db/transfer
 # set_perms 61016:61016 770 /jail/zoobar/db/transfer/transfer.db

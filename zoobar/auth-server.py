@@ -39,6 +39,11 @@ class AuthRpcServer(rpclib.RpcServer):
         newcred.password = pbkdf2.PBKDF2(password,newcred.salt).hexread(32)
         db.add(newcred)
         db.commit()
+        db1 = uid_setup()
+        temp=UID()
+        temp.username=username
+        db1.add(temp)
+        db1.commit()
         return newtoken(db, newcred)
 
     def rpc_check_token(self,username, token):
