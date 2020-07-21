@@ -47,6 +47,8 @@ class AuthRpcServer(rpclib.RpcServer):
         if cred and cred.token == token:
             return True
         else:
+            print("cred.token:",cred.token)
+            print("token:",token)
             return False
 
 (_, dummy_zookld_fd, sockpath) = sys.argv

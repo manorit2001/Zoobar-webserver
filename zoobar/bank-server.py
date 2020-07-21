@@ -56,7 +56,15 @@ class BankRpcServer(rpclib.RpcServer):
         for i in db.query(Transfer).filter(or_(Transfer.sender==username,Transfer.recipient==username)):
             temp=i.__dict__
             del temp['_sa_instance_state']
-            x+=[temp]
+            newdict={}
+            for i,j in temp.items():
+                if(type(i)==str):
+                    i=i.encode("ascii")
+                if(type(j)==str):
+                    j=j.decode("ascii")
+                newdict[i]=j
+            print(newdict)
+            x+=[newdict]
         return x
 (_,dummy_zookld_fd,sockpath) = sys.argv
 s = BankRpcServer()

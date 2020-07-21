@@ -15,11 +15,15 @@ from debug import *
 ## Cache packages that the sandboxed code might want to import
 import time
 import errno
+from zoodb import *
 
 class ProfileAPIServer(rpclib.RpcServer):
     def __init__(self, user, visitor):
         self.user = user
         self.visitor = visitor
+        db=cred_setup()
+        cred = db.query(Cred).get(user)
+        self.token=cred.token
 
     def rpc_get_self(self):
         return self.user
@@ -30,11 +34,12 @@ class ProfileAPIServer(rpclib.RpcServer):
     def rpc_get_xfers(self, username):
         xfers = []
         for xfer in bank.get_log(username):
-            xfers.append({ 'sender': xfer.sender,
-                           'recipient': xfer.recipient,
-                           'amount': xfer.amount,
-                           'time': xfer.time,
+            xfers.append({ 'sender': xfer["sender"],
+                           'recipient': xfer["recipient"],
+                           'amount': xfer["amount"],
+                           'time': xfer["time"],
                          })
+        print(xfers)
         return xfers
 
     def rpc_get_user_info(self, username):
@@ -48,7 +53,8 @@ class ProfileAPIServer(rpclib.RpcServer):
                }
 
     def rpc_xfer(self, target, zoobars):
-        bank.transfer(self.user, target, zoobars)
+        print(self.token)
+        bank.transfer(self.user, target, zoobars, self.token)
 
 def run_profile(pcode, profile_api_client):
     globals = {'api': profile_api_client}
@@ -56,7 +62,7 @@ def run_profile(pcode, profile_api_client):
 
 class ProfileServer(rpclib.RpcServer):
     def rpc_run(self, pcode, user, visitor):
-        uid = 0
+        uid = 61020
 
         userdir = '/tmp'
 
