@@ -187,6 +187,17 @@ class sym_minus(sym_binop):
   def _z3expr(self, printable):
     return z3expr(self.a, printable) - z3expr(self.b, printable)
 
+class sym_mult(sym_binop):
+  def _z3expr(self, printable):
+    return z3expr(self.a, printable) * z3expr(self.b, printable)
+
+# class sym_truediv(sym_binop):
+#   def _z3expr(self, printable):
+#     return z3expr(self.a, printable) // z3expr(self.b, printable)
+
+class sym_floordiv(sym_binop):
+  def _z3expr(self, printable):
+    return z3expr(self.a, printable) / z3expr(self.b, printable)
 ## Exercise 2: your code here.
 ## Implement AST nodes for division and multiplication.
 
@@ -482,6 +493,30 @@ class concolic_int(int):
 
   ## Exercise 2: your code here.
   ## Implement symbolic division and multiplication.
+  def __rmul__(self, o):
+    res = o * self.__v
+    return concolic_int(sym_mult(ast(self), ast(o)), res)
+
+  def __mul__(self, o):
+    if isinstance(o, concolic_int):
+      res = self.__v * o.__v
+    else:
+      res = self.__v * o
+    return concolic_int(sym_mult(ast(self), ast(o)), res)
+
+  # def __truediv__(self,o):
+  #   if isinstance(o, concolic_int):
+  #     res = self.__v // o.__v
+  #   else:
+  #     res = self.__v // o
+  #   return concolic_int(sym_truediv(ast(self), ast(o)), res)
+
+  def __div__(self, o):
+    if isinstance(o, concolic_int):
+      res = self.__v / o.__v
+    else:
+      res = self.__v / o
+    return concolic_int(sym_floordiv(ast(self), ast(o)), res)
 
   def _sym_ast(self):
     return self.__sym
