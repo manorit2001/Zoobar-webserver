@@ -724,8 +724,11 @@ def concolic_test(testfunc, maxiter = 100, verbose = 0):
       for (c, caller) in zip(cur_path_constr, cur_path_constr_callers):
         print indent(z3expr(c, True)), '@', '%s:%d' % (caller[0], caller[1])
 
-    for (c,caller) in zip(cur_path_constr, cur_path_constr_callers):
-        constr = simplify(sym_not(c))
+    for i in range(len(cur_path_constr)-1,-1,-1):
+        (c,caller) = cur_path_constr[i],cur_path_constr_callers[i]
+        c = simplify(sym_not(c))
+        constr = simplify(sym_and(c,*cur_path_constr[:i]))
+        #print(constr)
         if(constr not in checked):
             ok , model = fork_and_check(constr)
             if ok == z3.sat:
