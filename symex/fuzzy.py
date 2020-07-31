@@ -695,6 +695,7 @@ def concolic_test(testfunc, maxiter = 100, verbose = 0):
 
     global concrete_values
     concrete_values = inputs.get()
+    #print(concrete_values)
 
     global cur_path_constr, cur_path_constr_callers
     cur_path_constr = []
@@ -713,6 +714,13 @@ def concolic_test(testfunc, maxiter = 100, verbose = 0):
       for (c, caller) in zip(cur_path_constr, cur_path_constr_callers):
         print indent(z3expr(c, True)), '@', '%s:%d' % (caller[0], caller[1])
 
+    for (c,caller) in zip(cur_path_constr, cur_path_constr_callers):
+        constr = simplify(sym_not(c))
+        if(constr not in checked):
+            ok , model = fork_and_check(constr)
+            if ok == z3.sat:
+                inputs.add(model,caller)
+            checked.add(constr)
     ## for each branch, invoke Z3 to find an input that would go
     ## the other way, and add it to the list of inputs to explore.
 
