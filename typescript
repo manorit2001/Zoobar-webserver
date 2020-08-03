@@ -1,4 +1,4 @@
-Script started on Fri Jul 31 18:32:22 2020
+Script started on Sun Aug  2 10:59:04 2020
 Trying concrete values: {}
 startresp 404 NOT FOUND [('Content-Type', 'text/html'), ('Content-Length', '233'), ('X-XSS-Protection', '0')]
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
@@ -105,7 +105,7 @@ startresp 302 FOUND [('Content-Type', 'text/html; charset=utf-8'), ('Content-Len
 <h1>Redirecting...</h1>
 <p>You should be redirected automatically to target URL: <a href="script/login?nexturl=http://zoobarscript/transfer?query">script/login?nexturl=http://zoobarscript/transfer?query</a>.  If not click the link.
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'cookie': 'PyZoobarLogin=bob#btok', 'rsplit_cookie_val_#_l': 'bob', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', 'path': 'fer'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1632'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1627'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -129,10 +129,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
+      <h1><a href="script/">Zoobar Foundation for Vigilant
                       Dialogue</a></h1>
-      <h2>Supporting the proven
-          representatives of the United States</h2>
+      <h2>Supporting the brightest
+          advocates of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -175,7 +175,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'form_recipient_present': 0L, 'rsplit_cookie_val_#_l': 'bob', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'form_zoobars_present': 25L, 'rsplit_cookie_val_#_r': 'btok', 'cookie': 'PyZoobarLogin=bob#btok', 'path': 'fer'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1632'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1633'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -199,10 +199,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Principled
-                      Thinking</a></h1>
-      <h2>Supporting the shrewd
-          representatives of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Patriotic
+                      Discourse</a></h1>
+      <h2>Supporting the brightest
+          soldiers of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -249,7 +249,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/transfer.py", line 15, in transfer
     zoobars = eval(request.form['zoobars'])
 KeyError: 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1683'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -273,10 +273,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Research</a></h1>
-      <h2>Supporting the leading
-          representatives of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Responsible
+                      Thinking</a></h1>
+      <h2>Supporting the best
+          minds of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -358,7 +358,7 @@ startresp 500 INTERNAL SERVER ERROR [('Content-Type', 'text/html'), ('Content-Le
 <p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
 
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'cookie': 'PyZoobarLogin=alice#atok', 'rsplit_cookie_val_#_l': 'alice', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', 'path': 'fer'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1636'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1627'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -382,10 +382,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Thinking</a></h1>
-      <h2>Supporting the foremost
-          researchers of the next generation</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Policy</a></h1>
+      <h2>Supporting the important
+          minds of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -428,7 +428,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'form_recipient_present': 0L, 'rsplit_cookie_val_#_l': 'bob', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'form_zoobars_present': 0L, 'rsplit_cookie_val_#_r': 'btok', 'cookie': 'PyZoobarLogin=bob#btok', 'path': 'fer'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1640'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1625'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -452,10 +452,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Research</a></h1>
-      <h2>Supporting the brightest
-          advocates of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Thinking</a></h1>
+      <h2>Supporting the best
+          students of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -579,7 +579,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1682'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -603,10 +603,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Principled
-                      Policy</a></h1>
-      <h2>Supporting the leading
-          representatives of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Inquisitive
+                      Advocacy</a></h1>
+      <h2>Supporting the skillful
+          researchers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -657,7 +657,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1684'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -681,10 +681,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sensible
-                      Thinking</a></h1>
-      <h2>Supporting the best
-          thinkers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Sustainable
+                      Discourse</a></h1>
+      <h2>Supporting the leading
+          soldiers of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -735,7 +735,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1691'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -759,10 +759,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Trustworthy
-                      Discourse</a></h1>
+      <h1><a href="script/">Zoobar Foundation for Inquisitive
+                      Dialogue</a></h1>
       <h2>Supporting the best
-          advocates of the information superhighway</h2>
+          researchers of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -813,7 +813,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1689'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -837,10 +837,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Principled
-                      Research</a></h1>
-      <h2>Supporting the brave
-          thinkers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Advocacy</a></h1>
+      <h2>Supporting the meritorious
+          researchers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -935,7 +935,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1681'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -959,10 +959,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Trustworthy
-                      Research</a></h1>
-      <h2>Supporting the proven
-          representatives of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Thinking</a></h1>
+      <h2>Supporting the important
+          students of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1013,7 +1013,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1698'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1037,10 +1037,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Vigilant
-                      Policy</a></h1>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Advocacy</a></h1>
       <h2>Supporting the leading
-          thinkers of the next generation</h2>
+          representatives of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1091,7 +1091,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1115,10 +1115,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Learning</a></h1>
-      <h2>Supporting the important
-          thinkers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Responsible
+                      Discourse</a></h1>
+      <h2>Supporting the meritorious
+          soldiers of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1169,7 +1169,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1691'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1682'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1193,10 +1193,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sensible
-                      Learning</a></h1>
-      <h2>Supporting the foremost
-          thinkers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Thinking</a></h1>
+      <h2>Supporting the skillful
+          advocates of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1452,7 +1452,7 @@ startresp 500 INTERNAL SERVER ERROR [('Content-Type', 'text/html'), ('Content-Le
 <p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
 
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'cookie': 'PyZoobarLogin=bob#btok', 'form_recipient_present': 0L, 'rsplit_cookie_val_#_l': 'bob', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', 'path': 'fer'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1633'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1625'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1476,10 +1476,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Ethical
-                      Learning</a></h1>
-      <h2>Supporting the brave
-          thinkers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Vigilant
+                      Research</a></h1>
+      <h2>Supporting the foremost
+          minds of the new world order</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1545,7 +1545,7 @@ startresp 500 INTERNAL SERVER ERROR [('Content-Type', 'text/html'), ('Content-Le
 <p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
 
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '', '_t_str13': '0', '_t_str10': '0', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '0'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1680'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1569,10 +1569,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sustainable
-                      Policy</a></h1>
-      <h2>Supporting the loyal
-          soldiers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Dialogue</a></h1>
+      <h2>Supporting the meritorious
+          students of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1617,7 +1617,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'form_recipient_present': 0L, 'rsplit_cookie_val_#_l': 'alice', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'form_zoobars_present': 25L, 'rsplit_cookie_val_#_r': 'atok', 'cookie': 'PyZoobarLogin=alice#atok', 'path': 'fer'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1631'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1629'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1641,10 +1641,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Discourse</a></h1>
-      <h2>Supporting the loyal
-          soldiers of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Sustainable
+                      Policy</a></h1>
+      <h2>Supporting the important
+          soldiers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1693,7 +1693,7 @@ startresp 302 FOUND [('Content-Type', 'text/html; charset=utf-8'), ('Content-Len
 <h1>Redirecting...</h1>
 <p>You should be redirected automatically to target URL: <a href="script/login?nexturl=http://zoobarscript/transfer?query">script/login?nexturl=http://zoobarscript/transfer?query</a>.  If not click the link.
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '', '_t_str13': '0', '_t_str10': '0', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '0'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1688'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1717,10 +1717,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Research</a></h1>
-      <h2>Supporting the loyal
-          thinkers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Learning</a></h1>
+      <h2>Supporting the best
+          researchers of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1769,7 +1769,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/transfer.py", line 15, in transfer
     zoobars = eval(request.form['zoobars'])
 KeyError: 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1676'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1679'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1793,10 +1793,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sensible
-                      Thinking</a></h1>
-      <h2>Supporting the leading
-          minds of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Responsible
+                      Discourse</a></h1>
+      <h2>Supporting the shrewd
+          students of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -1847,7 +1847,7 @@ startresp 302 FOUND [('Content-Type', 'text/html; charset=utf-8'), ('Content-Len
 <h1>Redirecting...</h1>
 <p>You should be redirected automatically to target URL: <a href="script/login?nexturl=http://zoobarscript/transfer?query">script/login?nexturl=http://zoobarscript/transfer?query</a>.  If not click the link.
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '', '_t_str13': '1', '_t_str10': '1', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '1'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1678'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1676'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1871,9 +1871,9 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Trustworthy
-                      Dialogue</a></h1>
-      <h2>Supporting the brave
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Policy</a></h1>
+      <h2>Supporting the important
           advocates of the next generation</h2>
       
       <div id="main" class="centerpiece">
@@ -1918,12 +1918,16 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+[10, 10]
+[10, 11]
+WARNING: Balance mismatch detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'form_recipient_present': 25L, 'rsplit_cookie_val_#_l': 'bob', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'form_zoobars_present': 0L, 'rsplit_cookie_val_#_r': 'btok', 'cookie': 'PyZoobarLogin=bob#btok', 'path': 'fer'}
 Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/transfer.py", line 15, in transfer
     zoobars = eval(request.form['zoobars'])
 KeyError: 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1689'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -1947,10 +1951,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Advocacy</a></h1>
-      <h2>Supporting the brightest
-          representatives of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Sensible
+                      Policy</a></h1>
+      <h2>Supporting the meritorious
+          thinkers of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2001,7 +2005,7 @@ startresp 302 FOUND [('Content-Type', 'text/html; charset=utf-8'), ('Content-Len
 <h1>Redirecting...</h1>
 <p>You should be redirected automatically to target URL: <a href="script/login?nexturl=http://zoobarscript/transfer?query">script/login?nexturl=http://zoobarscript/transfer?query</a>.  If not click the link.
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '', '_t_str13': '1', '_t_str10': '1', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '1'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1678'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1680'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2025,9 +2029,9 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Objective
-                      Advocacy</a></h1>
-      <h2>Supporting the brightest
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Research</a></h1>
+      <h2>Supporting the important
           students of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
@@ -2072,8 +2076,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+WARNING: Zoobar theft detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'form_recipient_present': 0L, 'rsplit_cookie_val_#_l': 'alice', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'form_zoobars_present': 0L, 'rsplit_cookie_val_#_r': 'atok', 'cookie': 'PyZoobarLogin=alice#atok', 'path': 'fer'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1639'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1632'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2097,10 +2103,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Research</a></h1>
-      <h2>Supporting the leading
-          thinkers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Inquisitive
+                      Dialogue</a></h1>
+      <h2>Supporting the skillful
+          minds of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2143,7 +2149,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '', '_t_str13': '10', '_t_str10': '1', '_t_str11': '0', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '10'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2167,10 +2173,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Principled
-                      Dialogue</a></h1>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Learning</a></h1>
       <h2>Supporting the meritorious
-          researchers of the information superhighway</h2>
+          advocates of the new world order</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2214,6 +2220,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+[10, 10]
+[10, 20]
+WARNING: Balance mismatch detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'form_recipient_present': 26L, 'rsplit_cookie_val_#_l': 'alice', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'form_zoobars_present': 25L, 'rsplit_cookie_val_#_r': 'atok', 'cookie': 'PyZoobarLogin=alice#atok', 'path': 'fer'}
 /home/httpd/lab/zoobar/debug.py:23 :: __try : caught exception in function transfer:
  Traceback (most recent call last):
@@ -2328,7 +2338,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1681'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2352,10 +2362,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Research</a></h1>
-      <h2>Supporting the leading
-          students of the next generation</h2>
+      <h1><a href="script/">Zoobar Foundation for Inquisitive
+                      Learning</a></h1>
+      <h2>Supporting the brave
+          minds of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2406,7 +2416,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1678'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1689'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2431,9 +2441,9 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
       <h1><a href="script/">Zoobar Foundation for Objective
-                      Policy</a></h1>
-      <h2>Supporting the brightest
-          minds of the next generation</h2>
+                      Discourse</a></h1>
+      <h2>Supporting the best
+          advocates of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2484,7 +2494,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1680'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1681'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2508,10 +2518,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sensible
-                      Thinking</a></h1>
+      <h1><a href="script/">Zoobar Foundation for Sustainable
+                      Policy</a></h1>
       <h2>Supporting the shrewd
-          thinkers of the new world order</h2>
+          researchers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2562,7 +2572,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1680'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2586,10 +2596,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sensible
-                      Discourse</a></h1>
-      <h2>Supporting the loyal
-          advocates of the United States</h2>
+      <h1><a href="script/">Zoobar Foundation for Awesome
+                      Learning</a></h1>
+      <h2>Supporting the shrewd
+          soldiers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2640,7 +2650,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1682'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1676'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2665,9 +2675,9 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
       <h1><a href="script/">Zoobar Foundation for Awesome
-                      Research</a></h1>
-      <h2>Supporting the brightest
-          thinkers of the next generation</h2>
+                      Learning</a></h1>
+      <h2>Supporting the loyal
+          thinkers of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2718,7 +2728,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1693'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2742,10 +2752,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Dialogue</a></h1>
-      <h2>Supporting the leading
-          soldiers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Learning</a></h1>
+      <h2>Supporting the meritorious
+          researchers of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2796,7 +2806,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2820,10 +2830,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Inquisitive
-                      Advocacy</a></h1>
-      <h2>Supporting the brightest
-          students of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Learning</a></h1>
+      <h2>Supporting the proven
+          soldiers of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -2874,7 +2884,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1691'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -2898,10 +2908,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Principled
-                      Research</a></h1>
-      <h2>Supporting the skillful
-          representatives of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Sensible
+                      Advocacy</a></h1>
+      <h2>Supporting the proven
+          thinkers of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3122,7 +3132,7 @@ startresp 500 INTERNAL SERVER ERROR [('Content-Type', 'text/html'), ('Content-Le
 <p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
 
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '', '_t_str13': '10', '_t_str10': '1', '_t_str11': '0', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '10'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1681'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3146,10 +3156,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Vigilant
-                      Learning</a></h1>
-      <h2>Supporting the leading
-          researchers of the United States</h2>
+      <h1><a href="script/">Zoobar Foundation for Awesome
+                      Research</a></h1>
+      <h2>Supporting the shrewd
+          advocates of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3193,8 +3203,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+WARNING: Zoobar theft detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, 'cookie': 'PyZoobarLogin=alice#atok', 'form_recipient_present': 0L, 'rsplit_cookie_val_#_l': 'alice', 'cookie_name': 'PyZoobarLogin', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', 'path': 'fer'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1635'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1628'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3218,10 +3230,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Discourse</a></h1>
-      <h2>Supporting the meritorious
-          soldiers of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Learning</a></h1>
+      <h2>Supporting the leading
+          researchers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3294,10 +3306,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Policy</a></h1>
-      <h2>Supporting the shrewd
-          researchers of the United States</h2>
+      <h1><a href="script/">Zoobar Foundation for Patriotic
+                      Thinking</a></h1>
+      <h2>Supporting the important
+          advocates of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3346,7 +3358,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/transfer.py", line 15, in transfer
     zoobars = eval(request.form['zoobars'])
 KeyError: 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1680'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3370,10 +3382,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sustainable
-                      Thinking</a></h1>
-      <h2>Supporting the loyal
-          researchers of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Learning</a></h1>
+      <h2>Supporting the proven
+          soldiers of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3424,7 +3436,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 15, in transfer
     raise ValueError()
 ValueError
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1695'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1691'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3448,10 +3460,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Policy</a></h1>
-      <h2>Supporting the skillful
-          researchers of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Principled
+                      Learning</a></h1>
+      <h2>Supporting the loyal
+          advocates of the new world order</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3496,7 +3508,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '-', '_t_str13': '0', '_t_str10': '-', '_t_str11': '0', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-0'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1697'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3520,10 +3532,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
+      <h1><a href="script/">Zoobar Foundation for Vigilant
                       Thinking</a></h1>
-      <h2>Supporting the foremost
-          representatives of the information superhighway</h2>
+      <h2>Supporting the leading
+          students of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3568,7 +3580,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '-', '_t_str13': '0', '_t_str10': '-', '_t_str11': '0', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-0'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1678'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1685'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3592,10 +3604,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sustainable
-                      Learning</a></h1>
-      <h2>Supporting the proven
-          minds of the next generation</h2>
+      <h1><a href="script/">Zoobar Foundation for Awesome
+                      Discourse</a></h1>
+      <h2>Supporting the leading
+          minds of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3640,7 +3652,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '-', '_t_str13': '1', '_t_str10': '-', '_t_str11': '1', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-1'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1681'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3664,10 +3676,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sustainable
-                      Learning</a></h1>
-      <h2>Supporting the brightest
-          advocates of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Vigilant
+                      Dialogue</a></h1>
+      <h2>Supporting the skillful
+          students of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3711,80 +3723,12 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+[10, 10]
+[10, 9]
+WARNING: Balance mismatch detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '-', '_t_str13': '1', '_t_str10': '-', '_t_str11': '1', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-1'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
-        <title>
-          Transfer - Zoobar Foundation
-        </title>
-    </head>
-    <body>
-        
-        
-        
-        <div id="header">
-          <div><a href="script/logout">Log out bob</a></div>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Advocacy</a></h1>
-      <h2>Supporting the meritorious
-          thinkers of the next generation</h2>
-      
-      <div id="main" class="centerpiece">
-        <table>
-          <tr><td>
-             <p>
-               
-                 
-                   <a href="script/">Home</a>
-                 
-                  | 
-               
-                 
-                   <a href="script/users">Users</a>
-                 
-                  | 
-               
-                 
-                   <b>Transfer</b>
-                 
-                 
-               
-             </p>
-          </td></tr>
-          <tr><td class="main">
-            
-<b>Balance: </b><span id="myZoobars"></span> zoobars<br />
-<form method="POST" name="transferform" action="script/transfer">
-<p>Send <input name="zoobars" type="text" value="-1" size=5> zoobars</p>
-<p>to <input name=recipient type=text value="alice" size=10></p>
-<input type="submit" name="submission" value="Send">
-</form>
-
-<span class="warning">Sent -1 zoobars</span>
-
-<script type="text/javascript" src="script/zoobarjs"></script>
-
-          </td></tr>
-        </table>
-      </div>
-      
-      
-    </body>
-</html>
-Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '-', '_t_str13': '10', '_t_str10': '-', '_t_str11': '10', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-10'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1689'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3809,9 +3753,83 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
       <h1><a href="script/">Zoobar Foundation for Principled
-                      Thinking</a></h1>
-      <h2>Supporting the best
-          representatives of the new world order</h2>
+                      Learning</a></h1>
+      <h2>Supporting the foremost
+          minds of the information superhighway</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="script/">Home</a>
+                 
+                  | 
+               
+                 
+                   <a href="script/users">Users</a>
+                 
+                  | 
+               
+                 
+                   <b>Transfer</b>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<b>Balance: </b><span id="myZoobars"></span> zoobars<br />
+<form method="POST" name="transferform" action="script/transfer">
+<p>Send <input name="zoobars" type="text" value="-1" size=5> zoobars</p>
+<p>to <input name=recipient type=text value="alice" size=10></p>
+<input type="submit" name="submission" value="Send">
+</form>
+
+<span class="warning">Sent -1 zoobars</span>
+
+<script type="text/javascript" src="script/zoobarjs"></script>
+
+          </td></tr>
+        </table>
+      </div>
+      
+      
+    </body>
+</html>
+WARNING: Zoobar theft detected
+WARNING: Zoobar theft detected
+Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '-', '_t_str13': '10', '_t_str10': '-', '_t_str11': '10', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-10'}
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1683'), ('X-XSS-Protection', '0')]
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Transfer - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        
+        <div id="header">
+          <div><a href="script/logout">Log out bob</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="script/">Zoobar Foundation for Vigilant
+                      Policy</a></h1>
+      <h2>Supporting the shrewd
+          minds of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3855,8 +3873,12 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+[10, 10]
+[10, 0]
+WARNING: Balance mismatch detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '-', '_t_str13': '10', '_t_str10': '-', '_t_str11': '10', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-10'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1697'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1692'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3880,10 +3902,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Dialogue</a></h1>
-      <h2>Supporting the meritorious
-          advocates of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Advocacy</a></h1>
+      <h2>Supporting the loyal
+          representatives of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -3927,6 +3949,8 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+WARNING: Zoobar theft detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'bob', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'bob#btok', 'rsplit_cookie_val_#_r': 'btok', '_t_str14': '', '_t_str12': '-', '_t_str13': '100', '_t_str10': '-', '_t_str11': '100', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=bob#btok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-100'}
 Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/transfer.py", line 17, in transfer
@@ -3934,7 +3958,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 15, in transfer
     raise ValueError()
 ValueError
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1699'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1688'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -3958,10 +3982,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Research</a></h1>
-      <h2>Supporting the meritorious
-          representatives of the United States</h2>
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Learning</a></h1>
+      <h2>Supporting the important
+          soldiers of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4012,7 +4036,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 15, in transfer
     raise ValueError()
 ValueError
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1694'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4036,10 +4060,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Ethical
-                      Dialogue</a></h1>
-      <h2>Supporting the skillful
-          researchers of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Objective
+                      Advocacy</a></h1>
+      <h2>Supporting the meritorious
+          students of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4090,7 +4114,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1707'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1712'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4114,10 +4138,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Principled
+      <h1><a href="script/">Zoobar Foundation for Sensible
                       Discourse</a></h1>
-      <h2>Supporting the skillful
-          soldiers of the information superhighway</h2>
+      <h2>Supporting the foremost
+          representatives of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4168,7 +4192,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1678'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4192,10 +4216,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sustainable
-                      Learning</a></h1>
-      <h2>Supporting the meritorious
-          students of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Awesome
+                      Discourse</a></h1>
+      <h2>Supporting the shrewd
+          minds of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4246,7 +4270,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1697'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4270,10 +4294,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Principled
-                      Policy</a></h1>
-      <h2>Supporting the proven
-          thinkers of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Dialogue</a></h1>
+      <h2>Supporting the best
+          advocates of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4324,7 +4348,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1676'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4348,10 +4372,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Learning</a></h1>
-      <h2>Supporting the brightest
-          representatives of the United States</h2>
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Research</a></h1>
+      <h2>Supporting the important
+          minds of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4426,10 +4450,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Ethical
-                      Advocacy</a></h1>
-      <h2>Supporting the shrewd
-          researchers of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Awesome
+                      Learning</a></h1>
+      <h2>Supporting the proven
+          thinkers of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4474,7 +4498,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '', '_t_str13': '0', '_t_str10': '0', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '0'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1681'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4498,10 +4522,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
+      <h1><a href="script/">Zoobar Foundation for Sustainable
                       Discourse</a></h1>
-      <h2>Supporting the meritorious
-          thinkers of the new world order</h2>
+      <h2>Supporting the brightest
+          thinkers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4546,7 +4570,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '', '_t_str13': '0', '_t_str10': '0', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '0'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4570,10 +4594,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Discourse</a></h1>
-      <h2>Supporting the important
-          advocates of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Objective
+                      Dialogue</a></h1>
+      <h2>Supporting the proven
+          minds of the new world order</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4618,78 +4642,6 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '', '_t_str13': '1', '_t_str10': '1', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '1'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
-        <title>
-          Transfer - Zoobar Foundation
-        </title>
-    </head>
-    <body>
-        
-        
-        
-        <div id="header">
-          <div><a href="script/logout">Log out alice</a></div>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-      <h1><a href="script/">Zoobar Foundation for Awesome
-                      Discourse</a></h1>
-      <h2>Supporting the brightest
-          thinkers of the 21st-century</h2>
-      
-      <div id="main" class="centerpiece">
-        <table>
-          <tr><td>
-             <p>
-               
-                 
-                   <a href="script/">Home</a>
-                 
-                  | 
-               
-                 
-                   <a href="script/users">Users</a>
-                 
-                  | 
-               
-                 
-                   <b>Transfer</b>
-                 
-                 
-               
-             </p>
-          </td></tr>
-          <tr><td class="main">
-            
-<b>Balance: </b><span id="myZoobars"></span> zoobars<br />
-<form method="POST" name="transferform" action="script/transfer">
-<p>Send <input name="zoobars" type="text" value="1" size=5> zoobars</p>
-<p>to <input name=recipient type=text value="bob" size=10></p>
-<input type="submit" name="submission" value="Send">
-</form>
-
-<span class="warning">Sent 1 zoobars</span>
-
-<script type="text/javascript" src="script/zoobarjs"></script>
-
-          </td></tr>
-        </table>
-      </div>
-      
-      
-    </body>
-</html>
-Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '', '_t_str13': '1', '_t_str10': '1', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '1'}
 startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1683'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
@@ -4714,10 +4666,84 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sustainable
-                      Discourse</a></h1>
-      <h2>Supporting the shrewd
-          soldiers of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Patriotic
+                      Research</a></h1>
+      <h2>Supporting the foremost
+          researchers of the new world order</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="script/">Home</a>
+                 
+                  | 
+               
+                 
+                   <a href="script/users">Users</a>
+                 
+                  | 
+               
+                 
+                   <b>Transfer</b>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<b>Balance: </b><span id="myZoobars"></span> zoobars<br />
+<form method="POST" name="transferform" action="script/transfer">
+<p>Send <input name="zoobars" type="text" value="1" size=5> zoobars</p>
+<p>to <input name=recipient type=text value="bob" size=10></p>
+<input type="submit" name="submission" value="Send">
+</form>
+
+<span class="warning">Sent 1 zoobars</span>
+
+<script type="text/javascript" src="script/zoobarjs"></script>
+
+          </td></tr>
+        </table>
+      </div>
+      
+      
+    </body>
+</html>
+WARNING: Zoobar theft detected
+WARNING: Zoobar theft detected
+Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '', '_t_str13': '1', '_t_str10': '1', '_t_str11': '', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '1'}
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1680'), ('X-XSS-Protection', '0')]
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Transfer - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        
+        <div id="header">
+          <div><a href="script/logout">Log out alice</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="script/">Zoobar Foundation for Inquisitive
+                      Dialogue</a></h1>
+      <h2>Supporting the proven
+          soldiers of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4761,8 +4787,12 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+[10, 10]
+[11, 10]
+WARNING: Balance mismatch detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '', '_t_str13': '10', '_t_str10': '1', '_t_str11': '0', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '10'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1691'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1678'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4786,10 +4816,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sustainable
-                      Policy</a></h1>
-      <h2>Supporting the brave
-          researchers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Patriotic
+                      Research</a></h1>
+      <h2>Supporting the best
+          soldiers of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4833,8 +4863,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+WARNING: Zoobar theft detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 2L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '', '_t_str13': '10', '_t_str10': '1', '_t_str11': '0', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '10'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1685'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1677'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4858,10 +4890,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Objective
-                      Thinking</a></h1>
-      <h2>Supporting the meritorious
-          advocates of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Principled
+                      Discourse</a></h1>
+      <h2>Supporting the loyal
+          minds of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4905,6 +4937,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+[10, 10]
+[20, 10]
+WARNING: Balance mismatch detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 1L, '_t_xor_3': 3L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 1L, '_t_xor_5': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '', '_t_str13': '100', '_t_str10': '1', '_t_str11': '00', 'form_recipient_present': 30L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 31L, 'path': 'fer', 'form_zoobars_val': '100'}
 Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/transfer.py", line 17, in transfer
@@ -4912,7 +4948,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 15, in transfer
     raise ValueError()
 ValueError
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1688'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1708'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -4936,10 +4972,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Objective
-                      Policy</a></h1>
-      <h2>Supporting the meritorious
-          soldiers of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Learning</a></h1>
+      <h2>Supporting the foremost
+          representatives of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -4990,7 +5026,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 15, in transfer
     raise ValueError()
 ValueError
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1712'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5014,10 +5050,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Ethical
-                      Advocacy</a></h1>
-      <h2>Supporting the brave
-          minds of the next generation</h2>
+      <h1><a href="script/">Zoobar Foundation for Principled
+                      Thinking</a></h1>
+      <h2>Supporting the important
+          representatives of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5062,7 +5098,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '-', '_t_str13': '0', '_t_str10': '-', '_t_str11': '0', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-0'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1672'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5086,10 +5122,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Ethical
+      <h1><a href="script/">Zoobar Foundation for Sustainable
                       Discourse</a></h1>
-      <h2>Supporting the shrewd
-          minds of the 21st-century</h2>
+      <h2>Supporting the brave
+          soldiers of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5134,7 +5170,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '-', '_t_str13': '0', '_t_str10': '-', '_t_str11': '0', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-0'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1684'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5158,10 +5194,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Inquisitive
-                      Research</a></h1>
-      <h2>Supporting the skillful
-          researchers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Principled
+                      Advocacy</a></h1>
+      <h2>Supporting the meritorious
+          soldiers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5206,7 +5242,7 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
     </body>
 </html>
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '-', '_t_str13': '1', '_t_str10': '-', '_t_str11': '1', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-1'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1685'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1676'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5230,10 +5266,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Objective
-                      Thinking</a></h1>
-      <h2>Supporting the important
-          thinkers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Principled
+                      Learning</a></h1>
+      <h2>Supporting the best
+          thinkers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5277,8 +5313,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+WARNING: Zoobar theft detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '-', '_t_str13': '1', '_t_str10': '-', '_t_str11': '1', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-1'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1691'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5302,10 +5340,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Objective
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
                       Dialogue</a></h1>
       <h2>Supporting the important
-          minds of the information superhighway</h2>
+          soldiers of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5349,8 +5387,12 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+[10, 10]
+[9, 10]
+WARNING: Balance mismatch detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '-', '_t_str13': '10', '_t_str10': '-', '_t_str11': '10', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-10'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1678'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5374,10 +5416,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
+      <h1><a href="script/">Zoobar Foundation for Responsible
                       Advocacy</a></h1>
-      <h2>Supporting the brave
-          minds of the United States</h2>
+      <h2>Supporting the foremost
+          soldiers of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5421,8 +5463,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+WARNING: Zoobar theft detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'alice', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '-', '_t_str13': '10', '_t_str10': '-', '_t_str11': '10', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-10'}
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1682'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1686'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5446,10 +5490,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Awesome
-                      Dialogue</a></h1>
-      <h2>Supporting the shrewd
-          students of the next generation</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Learning</a></h1>
+      <h2>Supporting the brightest
+          students of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5493,6 +5537,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
       
     </body>
 </html>
+[10, 10]
+[0, 10]
+WARNING: Balance mismatch detected
+WARNING: Zoobar theft detected
 Trying concrete values: {'_t_xor_2': 0L, '_t_xor_3': 1L, '_t_xor_0': 2L, '_t_xor_1': 1L, '_t_xor_4': 2L, 'form_recipient_val': 'bob', 'rsplit_cookie_val_#_l': 'alice', '_t_str0': 'tr', '_t_str1': 'ansfer', '_t_str2': 't', '_t_str3': 'ransfer', 'cookie_val': 'alice#atok', 'rsplit_cookie_val_#_r': 'atok', '_t_str14': '', '_t_str12': '-', '_t_str13': '100', '_t_str10': '-', '_t_str11': '100', 'form_recipient_present': 31L, 'cookie_name': 'PyZoobarLogin', 'cookie': 'PyZoobarLogin=alice#atok', 'form_zoobars_present': 32L, 'path': 'fer', 'form_zoobars_val': '-100'}
 Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/transfer.py", line 17, in transfer
@@ -5500,7 +5548,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 15, in transfer
     raise ValueError()
 ValueError
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1702'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5524,10 +5572,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sensible
-                      Learning</a></h1>
-      <h2>Supporting the foremost
-          researchers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Principled
+                      Advocacy</a></h1>
+      <h2>Supporting the shrewd
+          thinkers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5578,7 +5626,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 15, in transfer
     raise ValueError()
 ValueError
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1692'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1701'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5602,10 +5650,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Advocacy</a></h1>
-      <h2>Supporting the loyal
-          thinkers of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Dialogue</a></h1>
+      <h2>Supporting the brightest
+          researchers of the new world order</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5656,7 +5704,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1676'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1675'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5680,10 +5728,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Inquisitive
-                      Learning</a></h1>
-      <h2>Supporting the best
-          minds of the United States</h2>
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Dialogue</a></h1>
+      <h2>Supporting the loyal
+          thinkers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5734,7 +5782,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1694'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5758,10 +5806,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Discourse</a></h1>
+      <h1><a href="script/">Zoobar Foundation for Awesome
+                      Policy</a></h1>
       <h2>Supporting the brave
-          students of the new world order</h2>
+          students of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5812,7 +5860,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1703'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1700'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5836,10 +5884,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Dialogue</a></h1>
-      <h2>Supporting the skillful
-          researchers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Principled
+                      Thinking</a></h1>
+      <h2>Supporting the meritorious
+          thinkers of the new world order</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5890,7 +5938,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1698'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1685'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5914,10 +5962,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Research</a></h1>
-      <h2>Supporting the shrewd
-          researchers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Sensible
+                      Advocacy</a></h1>
+      <h2>Supporting the brave
+          minds of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -5968,7 +6016,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1687'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1680'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -5992,10 +6040,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Learning</a></h1>
-      <h2>Supporting the brightest
-          advocates of the United States</h2>
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Advocacy</a></h1>
+      <h2>Supporting the leading
+          students of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6046,7 +6094,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1688'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1683'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6070,10 +6118,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Awesome
-                      Discourse</a></h1>
-      <h2>Supporting the brave
-          students of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Advocacy</a></h1>
+      <h2>Supporting the foremost
+          thinkers of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6124,7 +6172,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1683'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6148,10 +6196,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Vigilant
-                      Research</a></h1>
-      <h2>Supporting the leading
-          advocates of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Learning</a></h1>
+      <h2>Supporting the skillful
+          representatives of the new world order</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6202,7 +6250,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1703'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1708'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6226,10 +6274,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sustainable
-                      Dialogue</a></h1>
-      <h2>Supporting the best
-          students of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Sensible
+                      Discourse</a></h1>
+      <h2>Supporting the meritorious
+          soldiers of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6280,7 +6328,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1695'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1689'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6304,10 +6352,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Dialogue</a></h1>
-      <h2>Supporting the foremost
-          representatives of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Inquisitive
+                      Policy</a></h1>
+      <h2>Supporting the leading
+          thinkers of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6358,7 +6406,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1701'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1706'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6382,10 +6430,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Inquisitive
-                      Thinking</a></h1>
-      <h2>Supporting the leading
-          researchers of the next generation</h2>
+      <h1><a href="script/">Zoobar Foundation for Patriotic
+                      Discourse</a></h1>
+      <h2>Supporting the meritorious
+          researchers of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6436,7 +6484,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1689'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1694'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6460,10 +6508,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Ethical
-                      Dialogue</a></h1>
+      <h1><a href="script/">Zoobar Foundation for Disciplined
+                      Thinking</a></h1>
       <h2>Supporting the meritorious
-          advocates of the United States</h2>
+          soldiers of the new world order</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6514,7 +6562,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1697'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6539,9 +6587,9 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
       <h1><a href="script/">Zoobar Foundation for Vigilant
-                      Research</a></h1>
-      <h2>Supporting the meritorious
-          thinkers of the 21st-century</h2>
+                      Thinking</a></h1>
+      <h2>Supporting the important
+          soldiers of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6592,7 +6640,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1683'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1676'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6616,10 +6664,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Objective
-                      Research</a></h1>
-      <h2>Supporting the shrewd
-          advocates of the new world order</h2>
+      <h1><a href="script/">Zoobar Foundation for Inquisitive
+                      Policy</a></h1>
+      <h2>Supporting the brave
+          minds of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6670,7 +6718,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1703'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1693'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6694,10 +6742,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Inquisitive
+      <h1><a href="script/">Zoobar Foundation for Patriotic
                       Learning</a></h1>
-      <h2>Supporting the brightest
-          students of the counterinsurgency</h2>
+      <h2>Supporting the shrewd
+          minds of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6748,7 +6796,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1681'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1683'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6773,9 +6821,9 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
       <h1><a href="script/">Zoobar Foundation for Principled
-                      Research</a></h1>
-      <h2>Supporting the best
-          students of the next generation</h2>
+                      Advocacy</a></h1>
+      <h2>Supporting the proven
+          thinkers of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6826,7 +6874,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1700'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6850,10 +6898,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Learning</a></h1>
-      <h2>Supporting the important
-          thinkers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Inquisitive
+                      Discourse</a></h1>
+      <h2>Supporting the brightest
+          representatives of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6904,7 +6952,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1684'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -6928,10 +6976,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Sensible
-                      Policy</a></h1>
-      <h2>Supporting the proven
-          representatives of the 21st-century</h2>
+      <h1><a href="script/">Zoobar Foundation for Patriotic
+                      Research</a></h1>
+      <h2>Supporting the important
+          advocates of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -6982,7 +7030,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1691'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1695'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7006,10 +7054,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Ethical
-                      Policy</a></h1>
+      <h1><a href="script/">Zoobar Foundation for Objective
+                      Thinking</a></h1>
       <h2>Supporting the brightest
-          soldiers of the United States</h2>
+          thinkers of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7060,7 +7108,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1693'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7084,10 +7132,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Policy</a></h1>
+      <h1><a href="script/">Zoobar Foundation for Ethical
+                      Discourse</a></h1>
       <h2>Supporting the shrewd
-          thinkers of the counterinsurgency</h2>
+          advocates of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7138,7 +7186,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1688'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7162,10 +7210,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Awesome
+      <h1><a href="script/">Zoobar Foundation for Ethical
                       Dialogue</a></h1>
-      <h2>Supporting the shrewd
-          soldiers of the information superhighway</h2>
+      <h2>Supporting the meritorious
+          soldiers of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7216,7 +7264,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1696'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1692'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7240,10 +7288,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Principled
-                      Research</a></h1>
-      <h2>Supporting the loyal
-          thinkers of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Responsible
+                      Thinking</a></h1>
+      <h2>Supporting the brightest
+          researchers of the 21st-century</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7294,7 +7342,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1705'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1692'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7318,10 +7366,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Policy</a></h1>
-      <h2>Supporting the meritorious
-          researchers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Sensible
+                      Thinking</a></h1>
+      <h2>Supporting the loyal
+          minds of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7372,7 +7420,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1692'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1689'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7396,10 +7444,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Responsible
-                      Policy</a></h1>
-      <h2>Supporting the proven
-          researchers of the counterinsurgency</h2>
+      <h1><a href="script/">Zoobar Foundation for Objective
+                      Research</a></h1>
+      <h2>Supporting the brave
+          researchers of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7450,7 +7498,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1694'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1690'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7474,10 +7522,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Patriotic
+      <h1><a href="script/">Zoobar Foundation for Disciplined
                       Thinking</a></h1>
-      <h2>Supporting the meritorious
-          researchers of the counterinsurgency</h2>
+      <h2>Supporting the foremost
+          soldiers of the counterinsurgency</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7528,7 +7576,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1688'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1703'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7553,9 +7601,9 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
       <h1><a href="script/">Zoobar Foundation for Patriotic
-                      Learning</a></h1>
+                      Advocacy</a></h1>
       <h2>Supporting the meritorious
-          minds of the United States</h2>
+          advocates of the information superhighway</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7606,7 +7654,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1707'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1695'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7630,10 +7678,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Disciplined
-                      Research</a></h1>
-      <h2>Supporting the brave
-          students of the information superhighway</h2>
+      <h1><a href="script/">Zoobar Foundation for Objective
+                      Advocacy</a></h1>
+      <h2>Supporting the proven
+          soldiers of the United States</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7684,7 +7732,7 @@ Traceback (most recent call last):
   File "/home/httpd/lab/zoobar/bank.py", line 12, in transfer
     recipient_balance = recipientp.zoobars + zoobars
 AttributeError: 'NoneType' object has no attribute 'zoobars'
-startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1688'), ('X-XSS-Protection', '0')]
+startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length', '1699'), ('X-XSS-Protection', '0')]
 <!DOCTYPE html>
 <html>
     <head>
@@ -7708,10 +7756,10 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
         
         
         
-      <h1><a href="script/">Zoobar Foundation for Ethical
-                      Thinking</a></h1>
-      <h2>Supporting the best
-          researchers of the next generation</h2>
+      <h1><a href="script/">Zoobar Foundation for Trustworthy
+                      Discourse</a></h1>
+      <h2>Supporting the shrewd
+          representatives of the next generation</h2>
       
       <div id="main" class="centerpiece">
         <table>
@@ -7757,4 +7805,4 @@ startresp 200 OK [('Content-Type', 'text/html; charset=utf-8'), ('Content-Length
 </html>
 Stopping after 139 iterations
 
-Script done on Fri Jul 31 18:33:35 2020
+Script done on Sun Aug  2 10:59:53 2020
