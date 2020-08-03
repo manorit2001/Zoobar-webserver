@@ -36,7 +36,8 @@ def test_stuff():
   pdb.query(zoobar.zoodb.Person).delete()
   adduser(pdb, 'alice', 'atok')
   adduser(pdb, 'bob', 'btok')
-  balance1 = sum([p.zoobars for p in pdb.query(zoobar.zoodb.Person).all()])
+  initial_balance=[p.zoobars for p in pdb.query(zoobar.zoodb.Person).all()]
+  balance1 = sum(initial_balance)
   pdb.commit()
 
   tdb = zoobar.zoodb.transfer_setup()
@@ -77,6 +78,14 @@ def test_stuff():
 
   ## Exercise 6: your code here.
 
+  pdb = zoobar.zoodb.person_setup()
+  new_balances=[p.zoobars for p in pdb.query(zoobar.zoodb.Person).all()]
+  balance2 = sum(new_balances)
+  if(balance1 !=balance2):
+    report_balance_mismatch()
+  for i,j in zip(initial_balance,new_balances):
+    if i!=j:
+      report_zoobar_theft()
   ## Detect balance mismatch.
   ## When detected, call report_balance_mismatch()
 
